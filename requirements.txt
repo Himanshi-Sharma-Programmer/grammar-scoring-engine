@@ -1,0 +1,12 @@
+# Pre-existing numerical/ML stack — do not upgrade:
+#   numpy==1.24.3
+#   scipy==1.15.3
+#   scikit-learn==1.9.0
+#
+# Added for this assessment:
+pandas==2.2.3
+matplotlib==3.9.4
+ipykernel>=6.0
+nbclient>=0.10
+nbformat>=5.0
+jupyter>=1.0

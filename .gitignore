@@ -1,0 +1,21 @@
+# Secrets and local environments
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Challenge data and generated files stay on this machine
+Dataset_Final/
+baseline_snapshot/
+outputs/
+submission.csv
+challnege.md.txt
