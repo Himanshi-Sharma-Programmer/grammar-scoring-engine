@@ -13,9 +13,11 @@ __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# Challenge data and generated files stay on this machine
+# Challenge data and generated files stay on this machine.
+# The prediction file is a required deliverable and is kept.
 Dataset_Final/
 baseline_snapshot/
-outputs/
-submission.csv
+outputs/*
+!outputs/submission.csv
+/submission.csv
 challnege.md.txt
